@@ -1,0 +1,222 @@
+@media (max-width: 1920px) { /* 1 */
+.logotext-1 {
+	font-size: 6em !important;
+	}
+}
+@media (max-width: 1680px) { /* 2 */
+.logotext-1 {
+	font-size: 5.4em !important;
+	}
+}
+@media (max-width: 1440px) { /* 3 */
+.logotext-1 {
+	font-size: 4.8em !important;
+	}
+}
+@media (max-width: 1200px) { /* 4 */
+.logotext-1 {
+	font-size: 4.2em !important;
+	}
+}
+@media (max-width: 960px) { /* 5 */
+.logotext-1 {
+	font-size: 3.6em !important;
+	}
+}
+@media (max-width: 720px) { /* 6 */
+.logotext-1 {
+	font-size: 3.0em !important;
+	}
+}
+@media (max-width: 480px) { /* 7 */
+.logotext-1 {
+	font-size: 2.4em !important;
+	}
+}
+@media (max-width: 240px) { /* 8 */
+.logotext-1 {
+	font-size: 1.8em !important;
+	}
+}
+
+/*--------------------------------------------------------------------*/
+
+@media (max-width: 1920px) {
+.logotext-2 {
+	font-size: 2.8em !important;
+  padding-top: 0.5em !important;
+	}
+}
+@media (max-width: 1680px) {
+.logotext-2 {
+	font-size: 2.6em !important;
+  padding-top: 0.55em !important;
+	}
+}
+@media (max-width: 1440px) {
+.logotext-2 {
+	font-size: 2.4em !important;
+  padding-top: 0.6em !important;
+	}
+}
+@media (max-width: 1200px) {
+.logotext-2 {
+	font-size: 2.2em !important;
+  padding-top: 0.65em !important;
+	}
+}
+@media (max-width: 960px) {
+.logotext-2 {
+	font-size: 2.0em !important;
+  padding-top: 0.7em !important;
+	}
+}
+@media (max-width: 720px) {
+.logotext-2 {
+	font-size: 1.8em !important;
+  padding-top: 0.75em !important;
+	}
+}
+@media (max-width: 480px) {
+.logotext-2 {
+	font-size: 1.6em !important;
+  padding-top: 0.8em !important;
+	}
+}
+@media (max-width: 240px) {
+.logotext-2 {
+	font-size: 1.4em !important;
+  padding-top: 0.85em !important;
+	}
+}
+
+/*--------------------------------------------------------------------*/
+
+@media (max-width: 1920px) {
+.headertext {
+	font-size: 2.4em !important;
+	}
+}
+@media (max-width: 1680px) {
+.headertext {
+	font-size: 2.3em !important;
+	}
+}
+@media (max-width: 1440px) {
+.headertext {
+	font-size: 2.2em !important;
+	}
+}
+@media (max-width: 1200px) {
+.headertext {
+	font-size: 2.1em !important;
+	}
+}
+@media (max-width: 960px) {
+.headertext {
+	font-size: 2.0em !important;
+	}
+}
+@media (max-width: 720px) {
+.headertext {
+	font-size: 1.9em !important;
+	}
+}
+@media (max-width: 480px) {
+.headertext {
+	font-size: 1.8em !important;
+	}
+}
+@media (max-width: 240px) {
+.headertext {
+	font-size: 1.7em !important;
+	}
+}
+
+/*--------------------------------------------------------------------*/
+
+@media (max-width: 1920px) {
+.subheader {
+	font-size: 1.7em !important;
+	}
+}
+@media (max-width: 1680px) {
+.subheader {
+	font-size: 1.65em !important;
+	}
+}
+@media (max-width: 1440px) {
+.subheader {
+	font-size: 1.6em !important;
+	}
+}
+@media (max-width: 1200px) {
+.subheader {
+	font-size: 1.55em !important;
+	}
+}
+@media (max-width: 960px) {
+.subheader {
+	font-size: 1.5em !important;
+	}
+}
+@media (max-width: 720px) {
+.subheader {
+	font-size: 1.45em !important;
+	}
+}
+@media (max-width: 480px) {
+.subheader {
+	font-size: 1.4em !important;
+	}
+}
+@media (max-width: 240px) {
+.subheader {
+	font-size: 1.35em !important;
+	}
+}
+
+/*--------------------------------------------------------------------*/
+
+@media (max-width: 1920px) {
+.menutext {
+	font-size: 1.6em !important;
+	}
+}
+@media (max-width: 1680px) {
+.menutext {
+	font-size: 1.45em !important;
+	}
+}
+@media (max-width: 1440px) {
+.menutext {
+	font-size: 1.3em !important;
+	}
+}
+@media (max-width: 1200px) {
+.menutext {
+	font-size: 1.15em !important;
+	}
+}
+@media (max-width: 960px) {
+.menutext {
+	font-size: 1.0em !important;
+	}
+}
+
+/*--------------------------------------------------------------------*/
+
+@media (max-width: 1440px) {
+.kolobok-logo {
+	background-image: url(../img/kolobok-logo-2.png) !important;
+  height: 125px !important;
+  width: 171px !important;
+	}
+}
+@media (max-width: 960px) {
+.kolobok-logo {
+	background-image: url(../img/kolobok-logo-3.png) !important;
+  height: 100px !important;
+  width: 137px !important;
+	}
+}

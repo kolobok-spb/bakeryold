@@ -1,0 +1,206 @@
+/* ЗАПРЕТ ВЫДЕЛЕНИЯ --------------------------------------------------*/
+.userselect {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+}
+/* КУРСОРЫ -----------------------------------------------------------*/
+.cursor-pointer {
+  cursor: url("../img/pointer.cur"), default;
+}
+.cursor-link {
+  cursor: url("../img/link.cur"), pointer !important;
+}
+.cursor-text {
+  cursor: url("../img/text.cur"), text !important;
+}
+/* ЦВЕТА -------------------------------------------------------------*/
+.logocolor {
+  color: #EFEBE9 !important;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+.logocolor:hover, .logocolor:focus, .logocolor:active  {
+  color: #FFF !important;
+  transition: 0.5s;
+}
+.menucolor {
+  font-size: 1.6em !important;
+  color: #EFEBE9 !important;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+.menucolor:hover, .menucolor:focus, .menucolor:active {
+  color: #FFF !important;
+  transition: 0.5s;
+}
+/* СВЕЧЕНИЕ ----------------------------------------------------------*/
+.redglow-big {
+  text-shadow: #FF8000 0 0 8px, #FF0000 0 0 4px !important;
+  transition: 0.5s;
+}
+.redglow {
+  text-shadow: #FF8000 0 0 4px, #FF0000 0 0 2px !important;
+  transition: 0.5s;
+}
+.redglow-small {
+  text-shadow: #FF8000 0 0 1px, #FF0000 0 0 1px !important;
+  transition: 0.5s;
+}
+/* ПОВЕДЕНИЕ ---------------------------------------------------------*/
+.newlink:link {
+  color: #fff !important;
+}
+.newlink:visited {
+  color: #fff !important;
+}
+.newlink:hover {
+  color: #fff !important;
+  text-shadow: #FF8000 0 0 24px, #FF0000 0 0 12px !important;
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+.newlink:active {
+  color: #fff !important;
+}
+/* ШРИФТЫ ------------------------------------------------------------*/
+.headertext {
+  font-family: 'RussoOne', sans-serif !important;
+  text-align: center !important;
+  letter-spacing: 0.1em !important;
+}
+.subheader{
+  padding: 0 2.0em 0 2.0em;
+}
+.logotext-1 {
+  font-family: 'ChemyRetro', sans-serif !important;
+  font-size: 6em !important;
+  font-weight: normal !important;
+  letter-spacing: 0.05em !important;
+  text-shadow: #1A100E 0 0 10px;
+}
+.logotext-2 {
+  font-family: 'ChemyRetro', sans-serif !important;
+  font-size: 2.8em !important;
+  font-weight: normal !important;
+  letter-spacing: 0.05em !important;
+  text-shadow: #1A100E 0 0 10px;
+}
+.bodytext {
+  font-family: 'RobotoSlabRegular', sans-serif !important;
+}
+.headtext {
+  font-family: 'RobotoSlabBold', sans-serif !important;
+  text-transform: uppercase;
+  letter-spacing: 0.05em !important;
+}
+.menutext {
+  font-family: 'RussoOne', sans-serif !important;
+  text-transform: uppercase;
+  letter-spacing: 0.05em !important;
+}
+/* ГРАДИЕНТ ----------------------------------------------------------*/
+.gradient {
+  background-image:
+    linear-gradient(to right,
+      rgba(44,8,1,0.0),
+      rgba(44,8,1,0.3),
+      rgba(44,8,1,0.0));
+  padding: 1.2em 0 1.0em 0;
+  margin: 1.0em 0 2.4em 0;
+}
+/* ВЫРАВНИВАНИЕ БЛОКОВ -----------------------------------------------*/
+.container-align-center {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 100% !important;
+}
+.padding-big-heght {
+  padding: 2.4em 0 2.4em 0;
+}
+.padding-small-heght {
+  padding: 0.2em 0 0.2em 0;
+}
+.padding-big-top {
+  padding-top: 2.4em;
+}
+.padding-big-bottom {
+  padding-bottom: 2.4em;
+}
+.padding-small-top {
+  padding-top: 0.5em;
+}
+.padding-small-top-intro {
+  padding-top: 0.25em;
+}
+.padding-one {
+  padding-bottom: 5.0em;
+}
+.margin-left-1 {
+  margin-left: 0.1em !important;
+}
+.centerheight {
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+/* ОБОИ --------------------------------------------------------------*/
+.menu-section-text {
+  background: url(../img/menu-bg.jpg) center center no-repeat fixed;
+  background-size: cover;
+}
+.menu-overlay-text {
+  padding: 80px 0;
+  background: rgba(255,255,255,0.75);
+}
+.portfolio-section-text {
+  background: url(../img/gallery-bg.jpg) center center no-repeat fixed;
+  background-size: cover;
+}
+.portfolio-overlay-text {
+  padding: 80px 0;
+  background: rgba(255,255,255,0.75);
+}
+.team-section-text {
+  background: url(../img/team-bg.jpg) center center no-repeat fixed;
+  background-size: cover;
+}
+.team-overlay-text {
+  padding: 80px 0;
+  background: rgba(255,255,255,0.75);
+}
+/* ВЫРАВНИВАНИЕ ТЕКСТА -----------------------------------------------*/
+.justify-last-center {
+  text-align: justify;
+  -webkit-text-align-last: center;
+  -moz-text-align-last: center;
+  -ms-text-align-last: center;
+  -o-text-align-last: center;
+  text-align-last: center;
+}
+.copyright-1 {
+  padding: 0 2.0em 0 2.0em;
+  -webkit-text-align: center;
+  -moz-text-align: center;
+  -ms-text-align: center;
+  -o-text-align: center;
+  text-align: center;
+}
+/*--------------------------------------------------------------------*/
+.kolobok-logo-float {
+  float: left;
+}
+.kolobok-logo {
+  background-image: url(../img/kolobok-logo-1.png);
+  background-repeat: no-repeat;
+  background-color: transparent;
+  height: 150px;
+  width: 205px;
+}

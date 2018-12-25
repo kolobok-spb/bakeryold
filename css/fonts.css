@@ -1,0 +1,48 @@
+@font-face {
+	font-family: "RobotoSlabRegular";
+	src: local("RobotoSlab-Regular"),
+	url("../fonts/RobotoSlab-Regular.eot");
+	src: url("../fonts/RobotoSlab-Regular.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/RobotoSlab-Regular.woff2") format("woff2"),
+	url("../fonts/RobotoSlab-Regular.woff") format("woff"),
+	url("../fonts/RobotoSlab-Regular.ttf") format("truetype"),
+	url("../fonts/RobotoSlab-Regular.svg#RobotoSlabRegular") format("svg");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "RobotoSlabBold";
+	src: local("RobotoSlab-Bold"),
+	url("../fonts/RobotoSlab-Bold.eot");
+	src: url("../fonts/RobotoSlab-Bold.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/RobotoSlab-Bold.woff2") format("woff2"),
+	url("../fonts/RobotoSlab-Bold.woff") format("woff"),
+	url("../fonts/RobotoSlab-Bold.ttf") format("truetype"),
+	url("../fonts/RobotoSlab-Bold.svg#RobotoSlabBold") format("svg");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "RussoOne";
+	src: local("RussoOne-Regular"),
+	url("../fonts/RussoOne-Regular.eot");
+	src: url("../fonts/RussoOne-Regular.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/RussoOne-Regular.woff2") format("woff2"),
+	url("../fonts/RussoOne-Regular.woff") format("woff"),
+	url("../fonts/RussoOne-Regular.ttf") format("truetype"),
+	url("../fonts/RussoOne-Regular.svg#RussoOne") format("svg");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "ChemyRetro";
+	src: local("ChemyRetro"),
+	url("../fonts/ChemyRetro.eot");
+	src: url("../fonts/ChemyRetro.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/ChemyRetro.woff2") format("woff2"),
+	url("../fonts/ChemyRetro.woff") format("woff"),
+	url("../fonts/ChemyRetro.ttf") format("truetype"),
+	url("../fonts/ChemyRetro.svg#ChemyRetro") format("svg");
+	font-style: normal;
+	font-weight: normal;
+}
